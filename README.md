@@ -1,36 +1,16 @@
-# A React Portfolio Template for GitHub
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members)
-
-A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
-
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
-
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
-
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
-
-![Page Speed](/README_images/speed.png)
-
-## Light And Dark Themes
-
-![Hero Light](/README_images/hero.png)
-
-![Hero Dark](/README_images/heroDark.png)
+# A React Portfolio
 
 ### Getting Started
 
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. [Clone your repository](https://developers.google.com/speed/pagespeed/insights/)
-3. Make sure [Node](https://nodejs.org/en/) is installed
-4. Open your project and install the dependencies
+-> Make sure [Node](https://nodejs.org/en/) is installed
+-> Open your project and install the dependencies
 
    ```bash
    npm install
    ```
 
-5. Navigate to the src directory and open data.js
-6. Add your GitHub username ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L17) lines 17-21)
+-> Navigate to the src directory and open data.js
+-> Add your GitHub username ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L17) lines 17-21)
 
    ```javascript
    /* START HERE
@@ -39,8 +19,7 @@ Add your GitHub username once and all of your info will automatically be updated
    */
    export const githubUsername = "Your GitHub username here";
    ```
-
-7. Start the development server to view the results
+-> Start the development server to view the results
 
    ```bash
    npm start
@@ -110,19 +89,3 @@ A helpful guide for Create React App deployments with GitHub Pages can be found 
    npm run deploy
    ```
 
-### Customization Options
-
-Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-template/wiki) for additional customization options:
-
-- [Updating the Hero images](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Hero-images)
-- [Add a custom Blog icon](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Hero-images#add-a-custom-blog-icon)
-- [Updating the About Me section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-About-Me-section)
-- [Updating the Skills section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section)
-- [Add a link to your resume](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section#add-a-link-to-your-resume)
-- [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
-
-[Back to top :top:](#a-react-portfolio-template-for-github)
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
