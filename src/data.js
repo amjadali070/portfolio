@@ -18,7 +18,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "amjadali070";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -40,32 +40,32 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
+    skill: <Icon icon="logos:html-5" className="display-4" />,
     name: "HTML5",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
+    skill: <Icon icon="logos:css-3" className="display-4" />,
     name: "CSS3",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
+    skill: <Icon icon="logos:javascript" className="display-4" />,
     name: "JavaScript",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
+    skill: <Icon icon="logos:bootstrap" className="display-4" />,
     name: "BootStrap",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
+    skill: <Icon icon="logos:react" className="display-4" />,
     name: "React",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
+    skill: <Icon icon="logos:stylefmt" className="display-4" />,
     name: "Styled Components",
   },
   {
@@ -75,15 +75,73 @@ export const skillData = [
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
+    skill: <Icon icon="logos:git-icon" className="display-4" />,
     name: "Git",
   },
   {
     id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
+    skill: <Icon icon="logos:github-icon" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="logos:mongodb-icon" className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="logos:express" width="90" height="60" className="display-4" />,
+    name: "Express.js",
+  },
+  {
+    id: 13,
+    skill: <Icon icon="logos:nodejs-icon" className="display-4" />,
+    name: "Node.js",
+  },
+  {
+    id: 14,
+    skill: <Icon icon="logos:nextjs-icon" className="display-4" />,
+    name: "Next.js",
+  },
+  {
+    id: 15,
+    skill: <Icon icon="logos:java" className="display-4" />,
+    name: "Java",
+  },
+  {
+      id: 15,
+      skill: <Icon icon="logos:kotlin" width="90" height="60" className="display-4 grayscale-icon" />,
+      name: "Kotlin Programming",
+  },
+  
+  {
+    id: 16,
+    skill: <Icon icon="logos:android-vertical" className="display-4" />,
+    name: "Android Studio",
+  },
+  {
+    id: 17,
+    skill: <Icon icon="logos:python" className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 18,
+    skill: <Icon icon="logos:tensorflow" className="display-4" />,
+    name: "TensorFlow",
+  },
+  {
+    id: 19,
+    skill: <Icon icon="logos:pytorch-icon" className="display-4" />,
+    name: "PyTorch",
+  },
+  {
+    id:20,
+    skill: <Icon icon="vscode-icons:file-type-json" className="display-4" />,
+    name: "NLP (Natural Language Processing)",
+  },
 ];
+
+
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = null;
